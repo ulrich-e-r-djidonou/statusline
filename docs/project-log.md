@@ -37,3 +37,28 @@ Verification prevue:
 rg -n "status_line|/statusline|config.toml" .
 git status --short
 ```
+
+## 2026-06-26, publication du skill corrige
+
+Objectif: publier publiquement les corrections locales du skill `youtube-transcript-pdf`.
+
+Source du skill:
+
+- Depot: `https://github.com/aniketpanjwani/skills`
+- Chemin: `skills/general/youtube-transcript-pdf`
+- Licence: MIT, copyright Aniket Panjwani
+
+Corrections integrees dans `skills/youtube-transcript-pdf`:
+
+- detection Chrome/Edge sous Windows;
+- lecture et ecriture UTF-8 pour JSON, TXT, Markdown, HTML et audits;
+- prompts `codex exec` envoyes en bytes UTF-8;
+- normalisation du tiret long dans les titres YouTube;
+- adaptation des libelles de PDF pour les captions francaises;
+- desactivation des intertitres anglais automatiques pour les captions francaises.
+
+Exclusions volontaires:
+
+- `youtube-transcripts/`
+- `youtube-transcripts-fr/`
+- caches Python `__pycache__` et `*.pyc`

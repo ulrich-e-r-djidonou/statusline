@@ -10,6 +10,11 @@ Thumbs.db
 
 # Logs and caches
 *.log
+*.pyc
 node_modules/
 __pycache__/
 .pytest_cache/
+
+# Generated transcript outputs
+youtube-transcripts/
+youtube-transcripts-fr/

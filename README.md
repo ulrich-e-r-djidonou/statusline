@@ -4,6 +4,8 @@ Adaptation Codex de l'article de Hannah Stulberg sur la status line de Claude Co
 
 Source de depart: [Claude Code for Everything: Your Status Line Is Empty](https://hannahstulberg.substack.com/p/claude-code-for-everything-your-status-line-is-empty).
 
+Ce depot contient aussi une copie corrigee du skill Codex [`youtube-transcript-pdf`](skills/youtube-transcript-pdf/SKILL.md), issue du depot public [aniketpanjwani/skills](https://github.com/aniketpanjwani/skills), sous licence MIT. Les corrections locales ciblent Windows, UTF-8, Chrome/Edge, et l'adaptation des libelles de PDF selon la langue.
+
 ## Ce que Codex supporte nativement
 
 Codex n'utilise pas le meme modele que Claude Code pour cette fonction. Cote Codex, la status line du terminal se configure avec la commande interactive `/statusline` ou avec la cle `status_line` dans `~/.codex/config.toml`.
@@ -49,3 +51,5 @@ Pour Codex, l'adaptation fiable est donc:
 - [docs/codex-statusline-adaptation.md](docs/codex-statusline-adaptation.md): mapping Claude Code vers Codex.
 - [docs/project-log.md](docs/project-log.md): trace de travail et sources consultees.
 - [docs/decisions.md](docs/decisions.md): decisions de configuration.
+- [skills/youtube-transcript-pdf/SKILL.md](skills/youtube-transcript-pdf/SKILL.md): skill YouTube transcript PDF corrige pour Windows et francais.
+- [THIRD_PARTY_LICENSES/aniketpanjwani-skills-MIT.txt](THIRD_PARTY_LICENSES/aniketpanjwani-skills-MIT.txt): licence MIT du depot source.

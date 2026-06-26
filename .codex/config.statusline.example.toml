@@ -1,0 +1,12 @@
+# Copy one of these snippets into ~/.codex/config.toml.
+# Do not copy all variants at once. Keep only one status_line entry active.
+
+# Codex default, documented in the Codex manual.
+# status_line = ["model-with-reasoning", "context-remaining", "current-dir"]
+
+# Minimal working setup, close to the Claude Code article's first step.
+# Shows the active model, context remaining, and current Git branch.
+status_line = ["model", "context-remaining", "git-branch"]
+
+# Hide the footer entirely.
+# status_line = []

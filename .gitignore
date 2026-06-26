@@ -1,0 +1,15 @@
+# Local environment
+.env
+.env.*
+
+# OS and editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs and caches
+*.log
+node_modules/
+__pycache__/
+.pytest_cache/

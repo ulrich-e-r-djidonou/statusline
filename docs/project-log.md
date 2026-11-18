@@ -6,7 +6,7 @@ Objectif: adapter pour Codex l'article Substack de Hannah Stulberg sur la status
 
 Contexte local:
 
-- Dossier: `C:\Users\ciram\OneDrive\Documents\statusline`
+- Dossier: `~/OneDrive/Documents/statusline`
 - Depot Git existant, sans commit initial au moment de l'inspection.
 - `gh` disponible: version 2.93.0.
 - `codex` disponible: `codex-cli 0.137.0`.
